@@ -90,6 +90,8 @@ main{
 }
 strong{
 	font-size: 20px;
+	color: #2A4153;
+
 }
 .joinus-home__txt-btn-img{
 	display: flex;
@@ -123,8 +125,8 @@ strong{
 
 }
 .dot-container{
-	white-space: nowrap;
-	margin-left: 2%;
+	margin: 2%;
+	
 }
 .text-container-abouus, .dot-container{
 	padding: 1%;
@@ -345,7 +347,7 @@ justify-content: center;
 
 	.joinus-img, .presentation-img{
 		max-height: 371px;
-	max-width: 660px;
+	max-width: 650px;
 
 	}
 	.presentation-img{
@@ -385,8 +387,8 @@ justify-content: center;
 	margin: 2%;
 }
 	.home-intro__img-txt__img, .joinus-img{
-	min-width: 754px;
-	min-height: 469px;
+	width: 720px;
+	min-height: auto;
 	margin:2%;
 	}
 
