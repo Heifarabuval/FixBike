@@ -1,250 +1,254 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>FixBike</title>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-	</style>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>FixBike</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+		</style>
+	</head>
 
-</head>
+	<!-- Corps -->
+	<body>
+		<!-- En-tête -->
+		<header class="header">
+			<!-- Navigation pages en pages -->
+			<nav>
+				<ul>
+					<li><a href="home.html"> Accueil </a></li>
+					<li><a href="joinus.html"> Nous rejoindre </a></li>
+					<li><a href="aboutus.html"> Nos valeurs </a></li>
+					<li><a href="prices.html"> Tarifs </a></li>
+				</ul>
+			</nav>
 
-<!-- Corps -->
-<body>
-	<!-- En-tête -->
-	<header>
-		<!-- Navigation pages en pages -->
-		<nav>
-			<ul>
-				<li><a href="home.html"> Accueil </a></li>
-				<li><a href="joinus.html"> Nous rejoindre </a></li>
-				<li><a href="aboutus.html"> Nos valeurs </a></li>
-				<li><a href="prices.html"> Tarifs </a></li>
+			<!-- Titres de la bannière -->
 
-			</ul>
-		</nav>
+			<div class="header__banner">
+				<a style="text-decoration:none" href=home.html>
+					<div class="header__banner__title">
+						<img class="logo" src="images/logobikerepair.png" >
+						<h1>Fixbike</h1>
+					</div>
+				</a>
 
-		<!-- Titres de la bannière -->
+			</div>		
+		</header>
 
-		<div class="title">
-			<a style="text-decoration:none" href=home.html>
-				<div class="titles-1">
-					<img class="logo" src="images/logobikerepair.png" >
-					<h1>Fixbike</h1>
-				</div>
-			</a>
+		<!-- Contenu Excusif à la page -->
 
-		</div>		
-	</header>
+		<main>
+			<article class="home-intro">
+				<h2>FixBike Réparation tous types de vélos à domicile</h2>
+				<div class="home-intro__img-txt"> 
+
+					<img class="home-intro__img-txt__img" src="images/repair.jpeg">
+					<div class="home-intro__img-txt__text-container">
+						<p class="home-intro__img-txt__text-container__txt" >FixBike au travers son réseau et de ses experts, vous accompagne au quotidien pour entretenir, réparer et prolonger la durée de vie de votre vélo. <br><br>
+							
+
+							<span class="dot">1</span> Commandez le réparateur en quelques clics<br><br>
+							<span class="dot">2</span> Il vient réparer où vous vous trouvez <br><br>
+							<span class="dot">3</span> Vous pouvez repartir en toute confiance</p>
+						</div>
+
+					</div>
+				</article>
+				<br> 
+				<hr/>
+				<!-- JoinUs -->
+				<article class="joinus-home">
+					<h2>Vous voulez faire partie de l'aventure ?</h2>
+					<div class="joinus-home__txt-btn-img">
+						<div class="joinus-home__txt-btn-img__txt-btn">
+							<p class="joinus-home__txt-btn-img__txt">Si tu souhaites rejoindre l'aventure FixBike en tant que technicien réparateur, c'est par ici :</p>
+							<a href="joinus.html"><button class="joinus-home__txt-btn-img__btn" type="button">Nous rejoindre !</button></a>
+						</div>
+						<img class="joinus-img" src="images/joinus.jpg">
+
+					</div>
+				</article>
 
 
-	<main>
-		<br>
-		<h2>FixBike Réparation tous types de vélos à domicile</h2>
-		<div class="introduction">
 
-			<img class="presentation-img" src="images/repair.jpeg"">
-			<div class="dot-container-home">
-				<p >FixBike au travers son réseau et de ses experts, vous accompagne au quotidien pour entretenir, réparer et prolonger la durée de vie de votre vélo. <br><br>
 
-					<span class="dot">1</span> Commandez le réparateur en quelques clics<br><br>
-					<span class="dot">2</span> Il vient réparer où vous vous trouvez <br><br>
-					<span class="dot">3</span> Vous pouvez repartir en toute confiance</p>
-				</div>
 
-			</div><br> 
+				<hr/>
 
-			<hr/>
+				<!-- Feedbacks -->		
+				<article class="feedbacks-home">
+					<h2> Nos clients adorent ! </h2>
+					<div class="feedbacks-home__fb-container"> 
 
-			<h2>Vous voulez faire partie de l'aventure ?</h2>
-			<div class="joinus">
-				<div class="container-button-joinus">
-					<p>Si tu souhaites rejoindre l'aventure FixBike en tant que technicien réparateur, c'est par ici :</p>
-					<a href="joinus.html"><button class="button" type="button">Nous rejoindre !</button></a>
-				</div>
-				<img class="joinus-img" src="images/joinus.jpg">
 
-			</div>
+						<div class="feedbacks-home__fb-container__feedback">			
+							<div>
+								<img class="feedbacks-home__fb-container__feedback_img" src="images/nathalie.jpg">
+							</div>
+
+							<div class="feedbacks-home__fb-container__feedback__profile">
+								<h3 id="name">Nathalie</h3>
+								<div class="feedbacks-home__fb-container__feedback_rates">
+									<input type="radio" id="star5" name="rate" value="5" />
+									<label for="star5" title="text">5 stars</label>
+									<input type="radio" id="star4" name="rate" value="4" />
+									<label for="star4" title="text">4 stars</label>
+									<input type="radio" id="star3" name="rate" value="3" />
+									<label for="star3" title="text">3 stars</label>
+									<input type="radio" id="star2" name="rate" value="2" />
+									<label for="star2" title="text">2 stars</label>
+									<input type="radio" id="star1" name="rate" value="1" />
+									<label for="star1" title="text">1 star</label>
+								</div>
+							</div>
+
+							<p>Super 1e expérience avec Fixbike ! Aux petits soins pour remettre sur roues mon vélo. Je recommande vivement, et n’hésiterais pas à refaire appel à leur service !</p>
+						</div>
+
+						<div class="feedbacks-home__fb-container__feedback">			
+							<div>
+								<img class="feedbacks-home__fb-container__feedback_img" src="images/jean.jpg">
+							</div>
+							<div class="feedbacks-home__fb-container__feedback__profile">
+								<h3 id="name">Jean</h3>
+								<div class="feedbacks-home__fb-container__feedback_rates">
+									<input type="radio" id="star4" name="rate" value="4" />
+									<label for="star4" title="text">4 stars</label>
+									<input type="radio" id="star3" name="rate" value="3" />
+									<label for="star3" title="text">3 stars</label>
+									<input type="radio" id="star2" name="rate" value="2" />
+									<label for="star2" title="text">2 stars</label>
+									<input type="radio" id="star1" name="rate" value="1" />
+									<label for="star1" title="text">1 star</label>
+								</div>
+							</div>
+
+							<p>Un service de qualité à prix raisonable. Réparation et amélioration de mon vélo avec les conseils des meilleurs spécialistes. Même pendant une période de forte affluence et de demande l'équipe vous trouve des solutions.</p>
+						</div>
+
+						<div class="feedbacks-home__fb-container__feedback">			
+							<div>
+								<img class="feedbacks-home__fb-container__feedback_img" src="images/pierre.jpg">
+							</div>
+							<div class="feedbacks-home__fb-container__feedback__profile">
+								<h3 id="name">Pierre</h3>
+								<div class="feedbacks-home__fb-container__feedback_rates">
+									<input type="radio" id="star4" name="rate" value="4" />
+									<label for="star4" title="text">4 stars</label>
+									<input type="radio" id="star3" name="rate" value="3" />
+									<label for="star3" title="text">3 stars</label>
+									<input type="radio" id="star2" name="rate" value="2" />
+									<label for="star2" title="text">2 stars</label>
+									<input type="radio" id="star1" name="rate" value="1" />
+									<label for="star1" title="text">1 star</label>
+								</div>
+							</div>
+
+							<p>Fixbike furent les seuls à répondre présents pour la réparation de mon vélo électrique. Celle ci, qui était quasi sans espoirs pour de nombreux réparateurs parisiens. La qualité du service client est irréprochable, le rapport qualité prix également. L'équipe est vraiment professionnel et réactive. Je suis très content de leur travail !</p>
+						</div>
+
+						<div class="feedbacks-home__fb-container__feedback">			
+							<div>
+								<img class="feedbacks-home__fb-container__feedback_img" src="images/faustine.jpg">
+							</div>
+							<div class="feedbacks-home__fb-container__feedback__profile">
+								<h3 id="name">Faustine</h3>
+								<div class="feedbacks-home__fb-container__feedback_rates">
+									<input type="radio" id="star5" name="rate" value="5" />
+									<label for="star5" title="text">5 stars</label>
+									<input type="radio" id="star4" name="rate" value="4" />
+									<label for="star4" title="text">4 stars</label>
+									<input type="radio" id="star3" name="rate" value="3" />
+									<label for="star3" title="text">3 stars</label>
+									<input type="radio" id="star2" name="rate" value="2" />
+									<label for="star2" title="text">2 stars</label>
+									<input type="radio" id="star1" name="rate" value="1" />
+									<label for="star1" title="text">1 star</label>
+								</div>
+							</div>
+
+							<p>Fixbike c'est magique !! Vous choisissez vôtre créneau et le type de service ( réparation/installation et vous avez un technicien qualifié qui vient chez vous avec le matériel nécessaire. Toujours des petits conseils et suggestions concernant votre vélo et le matériel. Service au top , pro, réactif. Je recommande à 100%.</p>
+						</div>
+
+
+
+					</div>
+				</article>
+
+
+				<!-- Reserver -->
+
+				<article class="book-home">
+					<fieldset>
+						<h2 id="heading-2">Réservez votre réparation</h2>
+						<div class="book-home__inputs">
+							<!-- District Input -->
+							<div class="book-home__inputs__district">
+								<label for="district">Sélectionnez votre région:</label>
+								<input list="region" name="district" id="district">
+								<datalist id="region">
+									<option value="Auvergne-Rhône-Alpes">
+									<option value="Bourgogne-Franche-Comté">
+									<option value="Bretagne">
+									<option value="Centre-Val de Loire">
+									<option value="Corse">
+									<option value="Grand Est">
+									<option value="Guadeloupe">
+									<option value="Guyane">
+									<option value="Hauts-de-France">
+									<option value="Île-de-France">
+									<option value="Martinique">
+									<option value="Mayotte">
+									<option value="Normandie">
+									<option value="Nouvelle-Aquitaine">
+									<option value="Occitanie">
+									<option value="">
+									<option value="Pays de la Loire">
+									<option value="Provence-Alpes-Côte d'Azur">
+								 	<option value="La Réunion">
+								</datalist>
+							</div>
+
+							<!-- Bike type Input -->
+							<div class="book-home__inputs__bike">
+								<label for="bike">Sélectionnez votre type de vélo:</label>
+								<input list="velo" name="bike" id="bike">
+								<datalist id="velo">
+									<option value="DownHill Bike">
+									<option value="BMX">
+									<option value="Vélo hollandais">
+									<option value="Vélo tout chemin (VTC)">
+									<option value="Vélo « Sport urban »">
+									<option value="Vélo pliant">
+									<option value="Vélo à assistance électrique (VAE)">
+									<option value="Vélo-cargo">
+									<option value="Vélo tout terrain (VTT)">
+									<option value="Vélo couché">
+									<option value="Autre">
+								</datalist>
+							</div>
+
+
+								<div>
+									<label for="start">Date de prise en charge:</label>
+									<input type="date" id="start" name="fix-start" value="2020-09-09" min="2020-09-09" max="2036-12-31">
+								</div>
+						</div>
+
+						<div id="return"  class="book-home__inputs__btn-container">
+							<button class="book-home__inputs__btn-container__btn" type="button">Réserver ma réparation!</button>
+						</div>
+
+					</fieldset>
+			</article>
 		</main>
 
-		<!-- Feedbacks -->		
-		<section>
+		<!-- Pied de page -->
+		<footer>
+			<p>©2020 par H Buval</p>
+		</footer>
 
+	</body>
 
-			<hr />
-
-
-			<h2> Nos clients adorent ! </h2>
-			<div class="feedbacks"> 
-
-
-				<div class="feedback">			
-					<div>
-						<img id="profile-picture" src="images/nathalie.jpg">
-					</div>
-					<div class="name-rates">
-						<h3 id="name">Nathalie</h3>
-						<div class="rate">
-							<input type="radio" id="star5" name="rate" value="5" />
-							<label for="star5" title="text">5 stars</label>
-							<input type="radio" id="star4" name="rate" value="4" />
-							<label for="star4" title="text">4 stars</label>
-							<input type="radio" id="star3" name="rate" value="3" />
-							<label for="star3" title="text">3 stars</label>
-							<input type="radio" id="star2" name="rate" value="2" />
-							<label for="star2" title="text">2 stars</label>
-							<input type="radio" id="star1" name="rate" value="1" />
-							<label for="star1" title="text">1 star</label>
-						</div>
-					</div>
-
-					<p>Super 1e expérience avec Fixbike ! Aux petits soins pour remettre sur roues mon vélo. Je recommande vivement, et n’hésiterais pas à refaire appel à leur service !</p>
-				</div>
-
-				<div class="feedback">			
-					<div>
-						<img id="profile-picture" src="images/jean.jpg">
-					</div>
-					<div class="name-rates">
-						<h3 id="name">Jean</h3>
-						<div class="rate">
-							<input type="radio" id="star4" name="rate" value="4" />
-							<label for="star4" title="text">4 stars</label>
-							<input type="radio" id="star3" name="rate" value="3" />
-							<label for="star3" title="text">3 stars</label>
-							<input type="radio" id="star2" name="rate" value="2" />
-							<label for="star2" title="text">2 stars</label>
-							<input type="radio" id="star1" name="rate" value="1" />
-							<label for="star1" title="text">1 star</label>
-						</div>
-					</div>
-
-					<p>Un service de qualité à prix raisonable. Réparation et amélioration de mon vélo avec les conseils des meilleurs spécialistes. Même pendant une période de forte affluence et de demande l'équipe vous trouve des solutions.</p>
-				</div>
-
-				<div class="feedback">			
-					<div>
-						<img id="profile-picture" src="images/pierre.jpg">
-					</div>
-					<div class="name-rates">
-						<h3 id="name">Pierre</h3>
-						<div class="rate">
-							<input type="radio" id="star4" name="rate" value="4" />
-							<label for="star4" title="text">4 stars</label>
-							<input type="radio" id="star3" name="rate" value="3" />
-							<label for="star3" title="text">3 stars</label>
-							<input type="radio" id="star2" name="rate" value="2" />
-							<label for="star2" title="text">2 stars</label>
-							<input type="radio" id="star1" name="rate" value="1" />
-							<label for="star1" title="text">1 star</label>
-						</div>
-					</div>
-
-					<p>Fixbike furent les seuls à répondre présents pour la réparation de mon vélo électrique. Celle ci, qui était quasi sans espoirs pour de nombreux réparateurs parisiens. La qualité du service client est irréprochable, le rapport qualité prix également. L'équipe est vraiment professionnel et réactive. Je suis très content de leur travail !</p>
-				</div>
-
-				<div class="feedback">			
-					<div>
-						<img id="profile-picture" src="images/faustine.jpg">
-					</div>
-					<div class="name-rates">
-						<h3 id="name">Faustine</h3>
-						<div class="rate">
-							<input type="radio" id="star5" name="rate" value="5" />
-							<label for="star5" title="text">5 stars</label>
-							<input type="radio" id="star4" name="rate" value="4" />
-							<label for="star4" title="text">4 stars</label>
-							<input type="radio" id="star3" name="rate" value="3" />
-							<label for="star3" title="text">3 stars</label>
-							<input type="radio" id="star2" name="rate" value="2" />
-							<label for="star2" title="text">2 stars</label>
-							<input type="radio" id="star1" name="rate" value="1" />
-							<label for="star1" title="text">1 star</label>
-						</div>
-					</div>
-
-					<p>Fixbike c'est magique !! Vous choisissez vôtre créneau et le type de service ( réparation/installation et vous avez un technicien qualifié qui vient chez vous avec le matériel nécessaire. Toujours des petits conseils et suggestions concernant votre vélo et le matériel. Service au top , pro, réactif. Je recommande à 100%.</p>
-				</div>
-
-
-
-			</div>
-		</section>
-
-
-
-		<!-- Reserver -->
-
-		<section class="book">
-			<fieldset>
-				<h2 id="heading-2">Réservez votre réparation</h2>
-				<div class="inputs">
-					<!-- District Input -->
-					<div class="district-input">
-						<label for="district">Sélectionnez votre région:</label>
-						<input list="region" name="district" id="district">
-						<datalist id="region">
-							<option value="Auvergne-Rhône-Alpes">
-								<option value="Bourgogne-Franche-Comté">
-									<option value="Bretagne">
-										<option value="Centre-Val de Loire">
-											<option value="Corse">
-												<option value="Grand Est">
-													<option value="Guadeloupe">
-														<option value="Guyane">
-															<option value="Hauts-de-France">
-																<option value="Île-de-France">
-																	<option value="Martinique">
-																		<option value="Mayotte">
-																			<option value="Normandie">
-																				<option value="Nouvelle-Aquitaine">
-																					<option value="Occitanie">
-																						<option value="">
-																							<option value="Pays de la Loire">
-																								<option value="Provence-Alpes-Côte d'Azur">
-																									<option value="La Réunion">
-																									</datalist>
-																								</div>
-
-																								<!-- Bike type Input -->
-																								<div class="bike-input">
-																									<label for="bike">Sélectionnez votre type de vélo:</label>
-																									<input list="velo" name="bike" id="bike">
-																									<datalist id="velo">
-																										<option value="DownHill Bike">
-																											<option value="BMX">
-																												<option value="Vélo hollandais">
-																													<option value="Vélo tout chemin (VTC)">
-																														<option value="Vélo « Sport urban »">
-																															<option value="Vélo pliant">
-																																<option value="Vélo à assistance électrique (VAE)">
-																																	<option value="Vélo-cargo">
-																																		<option value="Vélo tout terrain (VTT)">
-																																			<option value="Vélo couché">
-																																				<option value="Autre">
-																																				</datalist>
-																																			</div>
-
-
-																																			<div>
-																																				<label for="start">Date de prise en charge:</label>
-																																				<input type="date" id="start" name="trip-start" value="2020-09-09" min="2020-09-09" max="2036-12-31">
-																																			</div>
-
-																																		</div>
-																																		<div id="return"  class="button-layout">
-																																			<button class="button" type="button">Reserver ma réparation!</button>
-																																		</div>
-																																	</fieldset>
-																																</section>
-
-
-																																<!-- Pied de page -->
-																																<footer>
-																																	<p>©2020 par H Buval</p>
-																																</footer>
-
-																															</body>
-
-																															</html>]
+</html>
