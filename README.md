@@ -2,7 +2,6 @@
   # FixeBike
 FixeBike est un mini site de 4 pages HTML/CSS reliés entres elles.
 <img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb.png">
-<img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb1.png">
 <img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb2.png">
 <img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb3.png">
 <img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb4.png">
@@ -12,7 +11,8 @@ FixeBike est un mini site de 4 pages HTML/CSS reliés entres elles.
 <img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb8.png">
 <img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb9.png">
 <img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb10.png">
-<img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb.11png">
+<img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb11.png">
+
 
 
 
