@@ -1,6 +1,7 @@
 # 
   # FixeBike
 FixeBike est un mini site de 4 pages HTML/CSS reliés entres elles.
+FixeBike est un POC d'un service de répartion de vélos sur le modèle Uber (travailleur indépendant).
 <img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb.png">
 <img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb2.png">
 <img src="https://github.com/Heifarabuval/FixBike/blob/master/screen/fb3.png">
