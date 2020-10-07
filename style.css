@@ -357,7 +357,9 @@ input[type=submit]:hover {
     justify-content: center
 }
 
-.feedbacks-home__fb-container {
+.feedbacks-home__fb-container,
+.sec,
+.fir {
     display: flex;
     flex-wrap: wrap;
     border-color: black;
@@ -455,6 +457,7 @@ video {
     }
     .joinus,
     .introduction {
+        justify-content: center;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -489,11 +492,21 @@ table {
     border-collapse: collapse;
 }
 
+.wheels,
+.brakes,
+.transmission,
+.electric,
+.overhaul,
+.other {
+    width: 100%;
+}
+
 
 /**/
 
 td,
 th {
+    width: 100%;
     padding: 5px;
     border: 1px solid black;
 }
